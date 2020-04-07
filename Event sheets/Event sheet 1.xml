@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
+        <comment>when player touches wolf, game restarts</comment>
         <event-block sid="909999893284883">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="923075281540889" type="Player">
