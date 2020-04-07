@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="909999893284883">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="923075281540889" type="Player">
+                    <param id="0" name="Object">Wolf</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="514136379602906" type="Player" />
+                <action id="-26" name="Restart layout" sid="892680701822498" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="697221610903167">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="850682409830446" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="342667730770062" type="Audio">
+                    <param id="0" name="Audio file">Julian Jarboe - Raindrops (Extended)</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-20</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="248974928780749">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="715851446334844" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="384606768295284" type="Particles">
+                    <param id="0" name="Object">Sprite6</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="207370873779490">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="786285830879396" type="Player">
+                    <param id="0" name="Object">Sprite10</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>
