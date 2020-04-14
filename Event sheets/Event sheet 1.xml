@@ -15,6 +15,7 @@
                 <action id="-26" name="Restart layout" sid="892680701822498" type="System" />
             </actions>
         </event-block>
+        <comment>hello there</comment>
         <event-block sid="697221610903167">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="850682409830446" type="System" />
